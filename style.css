@@ -223,7 +223,7 @@ justify-content: center;
 	
 	.carousel .list .item img{
 			width: 100vw;
-			height: auto;
+			height: 100vh;
 			overflow: hidden;
 			object-fit: cover;
 	}
@@ -265,7 +265,7 @@ justify-content: center;
 
 	.thumbnail{
 		position: absolute;
-		bottom: 50px;
+		bottom: 6px;
 		left: 50%;
 		width: max-content;
 		z-index: 100;
@@ -274,8 +274,8 @@ justify-content: center;
 	}
 
 	.thumbnail .item{
-		width: 150px;
-		height: 220px;
+		width: 120px;
+		height: 180px;
 		flex-shrink: 0;
 		position: relative;
 	}
